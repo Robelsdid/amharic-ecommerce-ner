@@ -1,0 +1,6 @@
+telethon
+pandas
+python-dotenv
+regex
+nltk
+unidecode 
