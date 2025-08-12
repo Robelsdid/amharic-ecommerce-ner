@@ -1,0 +1,21 @@
+{
+  "task_completed": " Model Interpretability",
+  "models_analyzed": [
+    "XLM-RoBERTa",
+    "BERT-Multilingual"
+  ],
+  "techniques_used": [
+    "SHAP",
+    "LIME"
+  ],
+  "key_findings": {
+    "word_importance": "Location names show highest importance scores",
+    "entity_detection": "Product and price entities are well-detected",
+    "model_behavior": "Both models show similar interpretability patterns"
+  },
+  "recommendations": [
+    "Use XLM-RoBERTa for complex entity detection scenarios",
+    "BERT-Multilingual is more efficient for simple cases",
+    "Focus on location and product keywords for better entity extraction"
+  ]
+}
